@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class SetImplementation {
 
-    private Set<Game> games = new HashSet<>();
+    private final Set<Game> games = new HashSet<>();
 
     public void addGame(Game game) {
         games.add(game);

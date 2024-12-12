@@ -5,13 +5,12 @@ import java.util.Queue;
 
 public class QueueImplementation {
 
-    private Queue<Game> games = new LinkedList<>();
+    private final Queue<Game> games = new LinkedList<>();
 
     public void addGame(Game game) {
         games.offer(game); // Добавляем игру в конец очереди
         System.out.println("queue.addGame(" + game + ")");
     }
-
 
     public void printGames() {
         System.out.println("queue.printGames");

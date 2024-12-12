@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListImplementation {
 
-    private List<Game> games = new ArrayList<>();
+    private final List<Game> games = new ArrayList<>();
 
     public void addGame(Game game) {
         games.add(game);

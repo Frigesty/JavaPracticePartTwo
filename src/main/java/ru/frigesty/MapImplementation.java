@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class MapImplementation {
 
-    private Map<Integer, Game> games = new HashMap<>();
+    private final Map<Integer, Game> games = new HashMap<>();
     private int nextKey = 1;
 
     public void addGame(Game game) {
